@@ -1,0 +1,26 @@
+.section-vote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 12% 20px 12%;
+    gap: 20px;
+}
+.table-vote{
+    border: solid 1px #c5c1c1;
+    border-collapse: collapse;
+    text-align: center;
+}
+.table-vote td, .table-vote th {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+.table-vote th{
+    background: #FFFFFF;
+}
+.table-vote tr:nth-child(odd){
+    background: #ebebeb;
+}
+.table-vote tr:nth-child(even){
+    background: #FFFFFF;
+}

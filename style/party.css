@@ -1,0 +1,30 @@
+.div-card-party{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-party{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    margin: 20px 0px;
+    padding: 10px 10px;
+}
+.card-party img{
+    width: 200px;
+    transition: 0.5s all;
+}
+.card-party img:hover{
+    transform: scale(1.1);
+}
+.div-card-info-party{
+    text-align: center;
+    padding: 15px 0px;
+    font-weight: 600;
+}
+.div-card-icons-party img{
+    width: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,82 @@
+.section-events{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px 12% 120px 12%;
+    gap: 20px;
+}
+.inputs-events{
+    display: flex;
+    gap: 20px;
+}
+.inputs-events input{
+    width: 350px;
+    padding: 8px;
+}
+.inputs-events button{
+    background-color: rgb(0,49,76);
+    color: #FFFFFF;
+    
+    cursor: pointer;
+
+    font-weight: bolder;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.inputs-events button:hover{
+    background-color: rgb(229, 237, 241);
+    color: rgb(0,49,76);
+}
+.inputs-events button:active{
+    background-color: rgb(5, 127, 192);
+}
+.div-info-events{
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
+}
+.info-events{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding-right: 10px;
+    gap: 5px;
+}
+.info-events-time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info-events-time div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.info-events-time div p{
+    padding: 10px;
+}
+.span-break-info-events{
+    background: rgb(0,49,76);
+    padding: 1px;
+}
+.btn-event-week{
+    background-color: rgb(0,49,76);
+    color: #FFFFFF;
+    
+    cursor: pointer;
+
+    font-weight: bolder;
+    padding: 10px;
+    width: 50%;
+    margin-top: 50px;
+
+    border-radius: 5px;
+}
+.btn-event-week:hover{
+    background-color: rgb(229, 237, 241);
+    color: rgb(0,49,76);
+}
+.btn-event-week:active{
+    background-color: rgb(5, 127, 192);
+}

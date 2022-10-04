@@ -1,0 +1,46 @@
+.div-card-congressperson{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 10px 200px;
+    gap: 25px;
+}
+
+.card-congressperson{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    width: 100%;
+    
+    background: #FFFFFF;
+    border: 1px solid #c7c7c7;
+}
+
+.card-congressperson img{
+    width: 100%;
+}
+.div-card-info-congressperson{
+    padding: 30px 30px 15px 30px;
+}
+.div-card-info-congressperson h3{
+    font-size: 18px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.div-card-info-congressperson p{
+    padding-bottom: 10px;
+}
+.div-card-info-congressperson li{
+    list-style: circle;
+}
+
+.div-card-icons-congressperson{
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: auto;
+}
+.div-card-icons-congressperson img{
+    width: 30px;
+    cursor: pointer;
+}

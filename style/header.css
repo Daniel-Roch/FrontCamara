@@ -1,0 +1,30 @@
+.section-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding : 20px 100px 20px 100px;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.div-logo-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.div-logo-header p{
+    font-weight: 600;
+}
+.section-header img{
+    width: 50px;
+}
+.section-header nav a{
+ padding-left: 10px;
+ color:#FFFFFF;
+ text-decoration: none;
+}
+.section-header nav a:hover{
+    text-decoration: underline;
+}

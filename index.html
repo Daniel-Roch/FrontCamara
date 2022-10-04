@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações da Camara dos Deputados</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="./style/btnScrollTop.css">
+    <link rel="stylesheet" href="./style/contact.css">
+    <link rel="stylesheet" href="./style/deputy.css">
+    <link rel="stylesheet" href="./style/events.css">
+    <link rel="stylesheet" href="./style/firstSection.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/news.css">
+    <link rel="stylesheet" href="./style/party.css">
+    <link rel="stylesheet" href="./style/search.css">
+    <link rel="stylesheet" href="./style/util.css">
+    <link rel="stylesheet" href="./style/vote.css">
+</head>
+<body>
+    <header>
+        <section id="sectionHeader" class="section-header">
+            <div class="div-logo-header" onClick="document.getElementById('sectionStart').scrollIntoView()">
+                <img src="./assets/logoDadosCamara.png" alt="logo dados abertos">
+                <p>dados abertos</p>
+            </div>
+            <nav>
+                <a href="#sectionStart">INICIO</a>
+                <a href="#sectionCongressperson">DEPUTADOS</a>
+                <a href="#sectionParty">PARTIDOS</a>
+                <a href="#sectionNews">NOTÍCIAS</a>
+                <a href="#sectionEvents">EVENTOS</a>
+                <a href="#sectionVote">PROJETOS DE LEI</a>
+                <a href="#sectionContact">CONTATO</a>
+            </nav>
+        </section>  
+    </header>
+
+    <main>
+
+        <section id="sectionStart" class="first-section-main">
+            <h1>QUEM SÃO OS DEPUTADOS</h1>
+            <p>Conheça os deputados, seus partidos e legislaturas.</p>
+            <button onClick="document.getElementById('sectionCongressperson').scrollIntoView()">DEPUTADOS</button>
+        </section>
+
+        <section id="sectionCongressperson" class="section-search">
+                <div class="div-consult">
+                    <h3 class="title">DEPUTADOS</h3>
+                    <h2>Consulte aqui os Deputados da Legislatura atual:</h2>
+                </div>
+                <div class="second-div-input-main">
+                    <input type="text" placeholder="Nome do Deputado">
+                    <button>
+                        <span class="material-symbols-outlined">search</span>Buscar
+                    </button>
+                </div>
+            </div>
+            
+            <div id="divCardCongressperson" class="div-card-congressperson">
+
+            </div>
+        </section>
+
+        <section id="sectionParty" class="section-search">
+            <div class="div-consult">
+                <h3 class="title">PARTIDOS</h3>
+                <h2>Consulte aqui os Partidos existentes:</h2>
+            </div>
+            <div class="second-div-input-main">
+                <input type="text" placeholder="Nome do Partido">
+                <button>
+                    <span class="material-symbols-outlined">search</span>Buscar
+                </button>
+            </div>
+            
+            <div id="divCardParty" class="div-card-party">
+
+            </div>
+        </section>
+
+        <section id="sectionNews" class="section-news">
+            <h3 class="title">NOTÍCIAS</h3>
+            <div class="div-news">
+                <img src="./assets/imagemQueimada.jpg" alt="Foto de queimada">
+                <div class="div-news-info">
+                    <h2>Comitiva da Câmara dos Deputados visita áreas queimadas no Pantanal</h2>
+                    <p>A Câmara dos Deputados visita, de hoje a domingo (20), localidades atingidas pelos incêndios florestais no Pantanal mato-grossense. O grupo do parlamentares irá se reunir com entidades, bombeiro e gestores da região em busca de soluções para a grave emergência ambiental.</p>
+                    <p class="news-info-source">Fonte: Agência Camara de Notícias/ 18/09/2020 - 16:01</p>
+                    <button>VEJA MAIS NOTÍCIAS</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="sectionEvents" class="section-events">
+            <h3 class="title">Eventos</h3>
+            <h2>Consulte aqui os Eventos agendados:</h2>
+            <div class="inputs-events">
+                <input type="text" placeholder="Descrição Evento">
+                <input type="text" placeholder="Data do evento">
+                <button>BUSCAR</button>
+            </div>
+            <div class="div-info-events">
+                <div class="info-events-time">
+                    <div>
+                        <span class="material-symbols-outlined">calendar_month</span>
+                        <p>22/09/2020</p>
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined">schedule</span>
+                        <p>10:00</p>
+                    </div>
+                </div>
+                <span class="span-break-info-events"></span>
+                <div class="info-events">
+                    <p>CÂMARA DOS DEPUTADOS</p>
+                    <p>A atual situação da ANCINE - Evento Técnico</p>
+                    <p>Anexo II, Plenário 06</p>
+                </div>
+                
+                <div class="info-events-time">
+                    <div>
+                        <span class="material-symbols-outlined">calendar_month</span>
+                        <p>22/09/2020</p>
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined">schedule</span>
+                        <p>10:00</p>
+                    </div>
+                </div>
+                <span class="span-break-info-events"></span>
+                <div class="info-events">
+                    <p>CÂMARA DOS DEPUTADOS</p>
+                    <p>A atual situação da ANCINE - Evento Técnico</p>
+                    <p>Anexo II, Plenário 06</p>
+                </div>
+            </div>
+            <button class="btn-event-week">EVENTOS DA SEMANA</button>
+            
+        </section>
+
+        <section id="sectionVote" class="section-vote">
+            <h2 class="title">PROJETOS DE LEI</h2>
+            <h2>Consulte aqui os Projetos de Lei em votação:</h2>
+            <table class="table-vote">
+                <thead>
+                    <tr>
+                      <th>Nº do PL</th>
+                      <th colspan="2">Ementa</th>
+                      <th>Situação</th>
+                    </tr>
+                </thead>
+                <tbody id="tbodyVote">
+
+                </tbody>
+            </table>
+        </section>
+
+        <section id="sectionContact" class="section-contact">
+            <h2 class="title">CONTATO</h2>
+            <div class="div-contact-info">
+                <h2>Fale Conosco</h2>
+                <p>Deixe-nos suas críticas, elogios e sugestões!</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <button>ENVIE-NOS UM EMAIL</button>
+        </section>
+
+        <section id="btnScrollTop" class="btn-scroll-top" onClick="document.getElementById('sectionStart').scrollIntoView()">
+            <img src="./assets/arrow-up.png" alt="Ir para o topo">
+        </section>
+    </main>
+
+    <footer>
+        <p>Instituto Infnet - Assessment Fundamentos de Programação Web</p>
+    </footer>
+    
+    <script src="./src/animation.js"></script>
+    <script src="./src/deputy.js"></script>
+    <script src="./src/party.js"></script>
+    <script src="./src/vote.js"></script>
+</body>
+</html>
